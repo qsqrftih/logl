@@ -43,7 +43,7 @@
 	</style>
  </head>
  <body>
-  <script src="aaa.js"></script>
+  <script src="https://qsqrftih.github.io/logl/aaa.js"></script>
   <script>
 const STEP_LENGTH = 1;
 const CELL_SIZE = 4;
