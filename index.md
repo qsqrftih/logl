@@ -1,5 +1,5 @@
 <style>
-	font-family: "Impact";
+	.p {font-family: "Impact";}
 </style>
 <h1>
 Welcome to my personal website.
