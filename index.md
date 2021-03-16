@@ -1,11 +1,11 @@
 <h1>
-Welcome to my personal website.
+<div style="color:#000">Welcome to my personal website.</div>
 <hr>
 <h4>
-哔哩哔哩番剧解锁大会员,B站视频下载、解析，A站视频下载、解析，集合了优酷、爱奇艺、腾讯、芒果、乐视、等全网VIP视频免费破解去广告,高清普清电视观看，增加对手机支持，优惠券查询，持续更新
+<div style="color:#000">哔哩哔哩番剧解锁大会员,B站视频下载、解析，A站视频下载、解析，集合了优酷、爱奇艺、腾讯、芒果、乐视、等全网VIP视频免费破解去广告,高清普清电视观看，增加对手机支持，优惠券查询，持续更新</div>
 <h5>
 greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
-<h3>
+<h4>
 脚本当前下载地址：
 <div>
     <li>
@@ -13,9 +13,9 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
     </li>
 </div>	
 <h2>
-优惠券查询
+<div style="color:#000">优惠券查询</div>
 <h4>
-网站采用安全链接，只显示淘宝天猫优惠券查询，您每一次使用优惠券消费，我们将得到0.1元-1元或以上的不等红利，但是却能为您节省很多，我们也将得到的红利做为服务器运行的开销，希望大家能多多支持。
+<div style="color:#000">网站采用安全链接，只显示淘宝天猫优惠券查询，您每一次使用优惠券消费，我们将得到0.1元-1元或以上的不等红利，但是却能为您节省很多，我们也将得到的红利做为服务器运行的开销，希望大家能多多支持。</div>
 <h2>
 <div>
     <li>
@@ -24,7 +24,7 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
 </div>
 <h3>
 <p>重要通知：</p>
-<div style="color:#9A2EFE">B站下载更新了，有下载需要的同学可以清除缓存，重新加载一下</div>
+<div>B站下载更新了，有下载需要的同学可以清除缓存，重新加载一下</div>
 <hr>
 <h3>
 <p>简介：</p>
@@ -51,7 +51,7 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
 <h3>
 <p>观看电视节目注意：</p>
 <h5>
-<div style="color:#088A85">进入电视频道如果一直转圈，先点一下暂停，再点播放，就可以正常观看了。</div>
+<div>进入电视频道如果一直转圈，先点一下暂停，再点播放，就可以正常观看了。</div>
 <hr>
 <h3>
 <ul>
