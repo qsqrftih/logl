@@ -1,3 +1,6 @@
+<style>
+	font-family: "Impact";
+</style>
 <h1>
 Welcome to my personal website.
 <hr>
