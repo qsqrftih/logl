@@ -23,8 +23,10 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
     </li>
 </div>
 <h3>
+<div style="color:#000">
 <p>重要通知：</p>
 <div>B站下载更新了，有下载需要的同学可以清除缓存，重新加载一下</div>
+</div>
 <hr>
 <h3>
 <p>简介：</p>
@@ -54,6 +56,7 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
 <div>进入电视频道如果一直转圈，先点一下暂停，再点播放，就可以正常观看了。</div>
 <hr>
 <h3>
+<div style="color:#000">
 <ul>
 更新内容
 </ul>
@@ -85,6 +88,7 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
 <li>8月2日增加B站解析，增加接口</li>
 <li>8月1日更新了自己的解析接口，更稳定</li>
 </ul>
+</div>
 <hr>
 <h3>
 <p>请勿相信视频中出现的跑马灯广告。</p>
