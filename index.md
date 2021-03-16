@@ -29,7 +29,7 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
 </div>
 <hr>
 <h3>
-<p>简介：</p>
+<div style="color:#000"><p>简介：</p></div>
 <h4>
 <div style="color:#000">脚本白嫖，有建议随便提，尽量满足，但是别乱给差评</div>
 <hr>
@@ -56,7 +56,6 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
 <div>进入电视频道如果一直转圈，先点一下暂停，再点播放，就可以正常观看了。</div>
 <hr>
 <h3>
-<div style="color:#000">
 <ul>
 更新内容
 </ul>
@@ -88,14 +87,13 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
 <li>8月2日增加B站解析，增加接口</li>
 <li>8月1日更新了自己的解析接口，更稳定</li>
 </ul>
-</div>
 <hr>
 <h3>
-<p>请勿相信视频中出现的跑马灯广告。</p>
+<div style="color:#DF0101"><p>请勿相信视频中出现的跑马灯广告。</p></div>
 <hr>
 <h4>
 <div style="color:blue">懒人专用，长期更新放心使用，有任何问题或者建议，可以给我留言，希望问题反馈里能提供浏览器名称、插件版本、操作系统、访问链接和必要的截图</div>
 <hr>
 <h3>
-<p>打赏作者</p>
-	<img src="https://qsqrftih.github.io/logl/shang.jpg" width="600" height="400">
+<div style="color:#000"><p>打赏作者</p></div>
+<img src="https://qsqrftih.github.io/logl/shang.jpg" width="600" height="400">
