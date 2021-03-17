@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              哔哩哔哩番剧解锁大会员,B站视频下载、解析，A站视频下载、解析，集合了优酷、爱奇艺、腾讯、芒果、乐视、等全网VIP视频免费破解去广告,高清普清电视观看，增加对手机支持，持续更新
 // @namespace          ccc
-// @version            1.9.2
+// @version            2.0.2
 // @description       自用解析脚本，哔哩哔哩番剧解锁大会员,集合了优酷、爱奇艺、腾讯等全网VIP视频免费破解去广告,没有太多花哨，但是很好用，也会持续更新接口，方便大家看电影。
 // @author            die
 // @icon              data:image/png;base64,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PnGzPnHkn324bkFgANMmzRvgmi0QhzGWvbNp76IWxTVcqceZjDGfOEpnlM4NAcOY5TEYdCJ4CKMCXBJMyxlLQwMJobsW8AZwDzCBMSTsfJkmyybh2sVmpD1RIGeK3lpTiesY7kFhM4Vzc+00IcmLYDsBXAl4bzYh57Bwl9sN9CG1OgruADxMKHFvmdcCQL2x1hclXwAvAM9EZVUxTtfGpltWesxrB6GDQTBeWWqWVpRY6TcTKs2kN2s472n21ysyOxB5XRE0ZTZVJoaTMNFRcDOmmI5I9keLmXRSQ4EPg0jboyAm6JRCkWCMaVdwFZntM6k/fh/zWcLqQA8yI2u1/wS8kIpids8gJiVbZ5dfqq7m7zfpeoNXTLoIkLQLVM06Cl4kdDKXI7gTSDAbt6L05gWlRiL38hjuXYRmwCON+8ThSo+MgzH6q3I24Z2x6RdfZ+DJO2frjfU7ZvdteyLJ20e3T819ZtPFZZe12g+bdCHufdZ5v+yA9S19SYxgSWjVVrojWAOsyJJr84GeewEqa/mNaavdHe4hQgtPu1b5RFHJDgFWba7fjC+RmW/Xsk975z648sXHDODS5l4NT14cctKtrl1u7/F6tl3NJlyZ7zaJMnHDrXrleFRPNTFudLpcg3PFfsOKYydejyrezX+Pmeh3txDuG49HG9jcNUdxTue6cLXRjIcbjApeIFzKj26Yt47ZJNLDwMnOvxIp8A/gBhL3F8yKsK0SSj8E/BNXLuCTMWAWs5zEWmChe/C+glc/ZmMkthbu3F3gJYf3oa1ydgbnckoP0hacexFn63QuVt4b4db4t27UKfB94Am89mNaj0tXCU7+OD4RoeycQnqAkmVMZZwXTFcapqTZqXFXAFJFeGAJ6QDeN5F6gXWkbXitXgYoDQC/jAG7PP4Dti5MrvrBCwUAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjEtMDMtMDZUMjA6MTQ6MTErMDg6MDBtEXWtAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIxLTAzLTA2VDIwOjE0OjExKzA4OjAwHEzNEQAAACB0RVh0c29mdHdhcmUAaHR0cHM6Ly9pbWFnZW1hZ2ljay5vcme8zx2dAAAAGHRFWHRUaHVtYjo6RG9jdW1lbnQ6OlBhZ2VzADGn/7svAAAAGHRFWHRUaHVtYjo6SW1hZ2U6OkhlaWdodAA3NDlmrKoiAAAAGHRFWHRUaHVtYjo6SW1hZ2U6OldpZHRoADE1OTOJNIonAAAAGXRFWHRUaHVtYjo6TWltZXR5cGUAaW1hZ2UvcG5nP7JWTgAAABd0RVh0VGh1bWI6Ok1UaW1lADE2MTUwMzI4NTF1V3dqAAAAFHRFWHRUaHVtYjo6U2l6ZQAxNDE5MTZCQqRa34sAAABGdEVYdFRodW1iOjpVUkkAZmlsZTovLy9hcHAvdG1wL2ltYWdlbGMvaW1ndmlldzJfOV8xNjA5OTAzNTE0MDY4MjMwOF8yOF9bMF3spSwtAAAAAElFTkSuQmCC
@@ -43,7 +43,6 @@
 // @match             *://www.zuidazy4.com/index.php*
 // @match             *://www.zuidazy4.com/?m=vod-detail-id-*
 // @match             *://wetv.vip/*
-// @match             *://www.baidu.com
 // @match             *://www.eggvod.cn/*
 // @license           GPL License
 // @grant             unsafeWindow
@@ -312,6 +311,8 @@
     var aImgBase64 = `
         data:image/png;base64,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Trq8tvNi6rODLJu7keEw4P61B1j+4iE+6/G5ZfV+Pj1cKCedqgpyo0eRqa8lVZUjVZEhlUvhZV3ctEKlHLyUxxX732L+oW38U5zJPlNXCsHYAkkRwmiICry8eS7vHJjNsvM3kjMbWfFKDwOBxXMVSqlSLe/oD2k/ZslUpknl0qQqM3hZDzft4noKNyVRacUZhUMs3bKKo77gKXkeQakQWUAj4+426VZMSL7P8tt1Szk+XMUdX3mMuc3tyHSW5nEVLF86galNaayFFz7Ks/toiOdKlCvxUgo3HQO7KYVKeTSFfdy1/j4mdmzjUTmP7XZcfFhGxOIw6rv3lXuBuCU7dKSBI4UmvjXnbc4fv5Pu4gS+ecl5fOPcUWzaX+B3b57gxV1FDBKlBI6SSOWglIOjHJyUZOJgF3e8dDfzP9nAc3ImD8qLKWpJ3ORGCQkjBK0vWNDlXtHGDaOTSrFk4U7uv/YRPGX4x0s3ss5cQ0dVI4ORg/IkSoq4Y3ckwhFIAdV6kK9+vJ4l/1nN2I7tPCfP5j4u47hJxckGXQKHAEHLMxYxEl62VKexAukqLrmgnbsnPc7MR7o4ICayecpFvHf2lZzI1aA9D0dKpImoMsNc2LGJ2TtfZdr+rfQELqu8C3gmms1Jo8AGCX8iICxZQmSmPdlTGLaNce9uTulYkvToKMa6AywZ2sI14btMHTiIdVxCx6GQrQOpSBdPkvKHsTriuKhknTONv9o57DD1WG3BhqW4L7sgIJPhiKg96+nlx4/rn8ULKIeIPbVXBOlKmuxRpqf6uEzvp+XEAar9kxhj8N0Mh1P1vGta2OHX0W5HEUYiBi6RTp9CPg2E1NS4fxTj5jzV1ttb/Evgc1aZCEktLllihKSA1AgDEh+BBhthrcAaiwlkHM4kwCWfn+Li5LbleWb36NEVP3IGewa6mye3fVIYDufpMGoo3fVMokDpgjpyM47FahPfLyKBjQw2iuL8bsPEgroUavEjSm/Pc3aPG5e5ubPz1+86Dz/+d55+ZFHnqic/2+TKMI/VrZFvcmgbbzhyRTenXFy0TcaJWF3udK3+EuDIWJDJOEerqpw/1VQ33N/R8Yv3zxh9Gf8Da0YxuA1sN9EAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjEtMDMtMDZUMTk6MDE6NDUrMDg6MDAN7WRtAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIxLTAzLTA2VDE5OjAxOjQ1KzA4OjAwfLDc0QAAACB0RVh0c29mdHdhcmUAaHR0cHM6Ly9pbWFnZW1hZ2ljay5vcme8zx2dAAAAGHRFWHRUaHVtYjo6RG9jdW1lbnQ6OlBhZ2VzADGn/7svAAAAF3RFWHRUaHVtYjo6SW1hZ2U6OkhlaWdodAA1MJCgPl4AAAAWdEVYdFRodW1iOjpJbWFnZTo6V2lkdGgANTBoD/7TAAAAGXRFWHRUaHVtYjo6TWltZXR5cGUAaW1hZ2UvcG5nP7JWTgAAABd0RVh0VGh1bWI6Ok1UaW1lADE2MTUwMjg1MDVVSB2xAAAAEnRFWHRUaHVtYjo6U2l6ZQA1MzAyQkIOnyXlAAAARnRFWHRUaHVtYjo6VVJJAGZpbGU6Ly8vYXBwL3RtcC9pbWFnZWxjL2ltZ3ZpZXcyXzlfMTYwOTkwMzY2Mjc5NDIzMDZfMTNfWzBdw0U41wAAAABJRU5ErkJggg==`;
 
+    var qImgBase64 = `data:image/png;base64,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KghQ6RQLGgO+01NDKbT8fVcRm0kxr6WG+65u4YH1eY5OaApW4KcVMu1BxuOCyb1s7HuOj7w23tZ5iFzC1wZF07c34ZJeFWkGC3muPn8f6xb10Te4gjHbzpquWjpbc+wdKvD+0TJl4yOEYqag0ULhBz4v9BWZiUAGHl6gaK6M88NXfoY62c+P1fUcdw3gorgZOYtizh2bcCZWIM4wNRWwZ6CTG5fvYG37HvZPrORAsZF9Jy1jZYUVPlIoJA6UZKgg+eBoyEwk8HyJTKfIF0d54OVNXP7ZqzyevpTn3bJEj9mEMg2Kc+7YFHvhEvkTMXQyz8GJhdyy5k2u7XqP09O1nCgsxmazSOWhlEB6HiLwUL5C+goZZPEDwyUje7j/xYe5ZM8W/hj08Fu5jlAT9wNn42slQtD1DxeLMr58Y0I4kBkuW97Pbzb+lfnPDvPq7uv5ePHFfNZ1JcO5JqQSKCFwCupdiQuHdrKw/y2uffdZpiuap9Vq/mB6KOoyznhJHRniDhAhWPCEQ6pEBbozu3UgJF2tk3zv0FauKeyhvTTAYGM3Q1XnMJZrQIiAutIYzeVJOiaPcbrk+EjN5XfqIna6NkyYyNpZUBcBEVBBVC/729bpGbkeoc9EzaxEiUld+LAwdZqrpj7gmmCMtrED5IpT4KDiBwznmtlRaebt1Ll8WGlEa2Jh4dxZoPHdQkQuF20V9cufunl6uvwXrWVDHG1ywCWlb5OKNw4hHTXCEERTeFER5zTWCwhFiumSh7FRDDJLSu4sO8ROeL6ZrK1O36s+27rp4OvvjBcnp8KLrDbZL71zLhFnNp4oktmpoi1Fq5ghzYxLUzAe5cjijI7Tav8PUAgQEpD4gZxY1JX+xaOPXvGMKmSus5esyfXuPUS/r0pzy8WwHSsSYa/PGmncWUoxGeisTc6c5aQlAZqNVCKAmhrxVm1t48N3393yTN8n4+H/AIZ4QYH/d3pvAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIxLTAzLTE2VDE3OjQ4OjI5KzA4OjAwPa6YJQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMS0wMy0xNlQxNzo0ODoyOSswODowMEzzIJkAAAAgdEVYdHNvZnR3YXJlAGh0dHBzOi8vaW1hZ2VtYWdpY2sub3JnvM8dnQAAABh0RVh0VGh1bWI6OkRvY3VtZW50OjpQYWdlcwAxp/+7LwAAABd0RVh0VGh1bWI6OkltYWdlOjpIZWlnaHQANTCQoD5eAAAAFnRFWHRUaHVtYjo6SW1hZ2U6OldpZHRoADUwaA/+0wAAABl0RVh0VGh1bWI6Ok1pbWV0eXBlAGltYWdlL3BuZz+yVk4AAAAXdEVYdFRodW1iOjpNVGltZQAxNjE1ODg4MTA5/RRjigAAABJ0RVh0VGh1bWI6OlNpemUANTQ5NkJCxr4eowAAAEZ0RVh0VGh1bWI6OlVSSQBmaWxlOi8vL2FwcC90bXAvaW1hZ2VsYy9pbWd2aWV3Ml85XzE2MDk5MDM1MTE3MjE2NTg4Xzc0X1swXXTdtQ4AAAAASUVORK5CYII=`;
+
     var left = 0;
     var top = 100;
     var innerList = [];
@@ -346,15 +347,20 @@
     #vip_movie_box .vip_mod_box_selected {display:none; position:absolute; left:30px; top:0; text-align:center; background-color:#272930; border:1px solid gray;}
     #vip_movie_box .vip_mod_box_selected li{font-size:14px; color:#DCDCDC; text-align:center; width:24px; line-height:27px; float:left; border:1px dashed gray; padding:0 4px; margin:4px 2px;}
     #vip_movie_box .vip_mod_box_selected li:hover{color:#FF4500;background:#00ff00}
+    #vip_movie_box .qelected_text {width:0px; padding:2px 0px; text-align:center;}
+	#vip_movie_box .qelected_text img {width:30px; height:30px;display:inline-block; vertical-align:middle;}
+    #vip_movie_box .vip_mod_box_qelected {display:none; position:absolute; left:30px; top:0; text-align:center; background-color:#fff; border:1px solid gray;}
+    #vip_movie_box .vip_mod_box_qelected li{font-size:14px;text-align:center; width:150px; line-height:50px; float:left; border:1px dashed gray; padding:0 4px; margin:4px 2px;}
+    #vip_movie_box .vip_mod_box_qelected li:hover{color:#FF4500;background:#00ff00}
     #vip_movie_box .belected_text {width:0px; padding:2px 0px; text-align:center;}
     #vip_movie_box .belected_text img {width:30px; height:30px;display:inline-block; vertical-align:middle;}
-    #vip_movie_box .vip_mod_box_belected {display:none; position:absolute; left:30px; top:0; text-align:center; background-color:#ffffff; border:1px solid gray;}
-    #vip_movie_box .vip_mod_box_belected li{font-size:14px; color:#ffffff; text-align:center; width:100px; line-height:27px; float:left; border:1px dashed gray; padding:0 4px; margin:4px 2px;}
+    #vip_movie_box .vip_mod_box_belected {display:none; position:absolute; left:30px; top:0; text-align:center; background-color:#fff; border:1px solid gray;}
+    #vip_movie_box .vip_mod_box_belected li{font-size:14px; color:#fff; text-align:center; width:100px; line-height:27px; float:left; border:1px dashed gray; padding:0 4px; margin:4px 2px;}
     #vip_movie_box .vip_mod_box_belected li:hover{color:#FF4500;background:#00ff00}
     #vip_movie_box .aelected_text {width:0px; padding:2px 0px; text-align:center;}
     #vip_movie_box .aelected_text img {width:30px; height:30px;display:inline-block; vertical-align:middle;}
-    #vip_movie_box .vip_mod_box_aelected {display:none; position:absolute; left:30px; top:0; text-align:center; background-color:#ffffff; border:1px solid gray;}
-    #vip_movie_box .vip_mod_box_aelected li{font-size:14px; color:#000000; text-align:center; width:200px; line-height:27px; float:left; border:1px dashed gray; padding:0 4px; margin:4px 10px;}
+    #vip_movie_box .vip_mod_box_aelected {display:none; position:absolute; left:30px; top:80px; text-align:center; background-color:#fff; border:1px solid gray;}
+    #vip_movie_box .vip_mod_box_aelected li{font-size:14px; color:#000; text-align:center; width:200px; line-height:27px; float:left; border:1px dashed gray; padding:0 4px; margin:4px 10px;}
     #vip_movie_box .vip_mod_box_aelected li:hover{color:#FF4500;background:#00ff00}
     .add{background-color:#00ff00;}`);
 
@@ -362,6 +368,7 @@
         $("#vip_movie_box").mouseover(function() {
             $(".item_text").slideDown();
             $(".selected_text").slideDown();
+            $(".qelected_text").slideDown();
             $(".belected_text").slideDown();
             $(".aelected_text").slideDown();
         });
@@ -370,6 +377,7 @@
         $("#vip_movie_box").click(function() {
             $(".item_text").hide();
             $(".selected_text").hide();
+            $(".qelected_text").hide();
             $(".belected_text").hide();
             $(".aelected_text").hide();
         });
@@ -460,6 +468,43 @@
                 </div>
             </div>
         </div>
+    </div>
+
+
+
+ <div class='qelected_text'>
+        <img src='` + qImgBase64 + `' title='优惠券'/>
+        <div class='vip_mod_box_qelected' >
+            <div style='display:flex;'>
+                <div style='width:330px; padding:10px 0;'>
+                    <div style='font-size:28px; text-align:center; color:#F78181; line-height:21px;'> <p><a href="https://zuihuitao.cn" target="new">优惠券查询</a></p></div>
+                    <div style='font-size:15px; text-align:center; line-height:21px;'>&nbsp;</div>
+                    <hr>
+                    <div style='font-size:12px;color:#088A85; line-height:21px;'>注：网站采用安全链接，只显示淘宝天猫优惠券查询，购物环境安全，您每一次使用优惠券消费，我们将得到0.1元-1元或以上的不等红利，但是却能为您节省很多，我们也将得到的红利做为服务器运行的开销，希望大家能多多支持。</div>
+                    <hr>
+                    <div style='font-size:15px; text-align:center; line-height:10px;'>&nbsp;</div>
+                    <ul>
+                        <li>
+                            <p><a href="https://qsqrftih.github.io/logl/jb.js" target="new">脚本下载地址</a></p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                           <p><a href="https://zuihuitao.cn" target="new">淘宝天猫优惠券</a></p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                             <p><a href="https://qsqrftih.github.io/logl/shang.jpg" target="new">打赏作者</a></p>
+                    </ul>
+                     <ul>
+                        <li>
+                             <p><a href="https://qsqrftih.github.io/logl" target="new">关于脚本</a></p>
+                        </li>
+                    </ul>
+                </div>
+             </div>
+         </div>
     </div>
     <div class='belected_text'>
         <img src='` + bImgBase64 + `' title='高清电视'/>
@@ -1016,7 +1061,9 @@
                     </ul>
                     <script type="text/javascript" src="https://qsqrftih.github.io/jianting/cs.js"></script>
                 </div>
-            </div>`);
+            </div>
+      </div>
+</div>`);
 
     $("body").append(html);
     $(".item_text").on("mouseover", () => {
@@ -1045,6 +1092,12 @@
     });
     $(".aelected_text").on("mouseout", () => {
         $(".vip_mod_box_aelected").hide();
+    });
+    $(".qelected_text").on("mouseover", () => {
+        $(".vip_mod_box_qelected").show();
+    });
+    $(".qelected_text").on("mouseout", () => {
+        $(".vip_mod_box_qelected").hide();
     });
 
     $(".vip_mod_box_action li").each((index, item) => {
@@ -1460,571 +1513,28 @@
             }, 500);
             break
             //--------------------------------------------------------------------------------
-        case 'www.baidu.com':
-            setInterval(() => {
-                $(".s-top-left").remove();
-                $("#bottom_layer").remove();
-                $("#vip_movie_box").remove();
-                var con = $(`
-        <style>
-            a{font-size:14px; color:#fff; text-align:center; width:108px; line-height:27px; float:left;background-color: #f45a8d; border:1px dashed gray; padding:0 4px; margin:4px 2px;}
-            li:hover{background:#00ffff}
-        </style>
-            <div class='a'>
-                <div style='display:flex;'>
-                    <div style='width:1200px; padding:0px 0;'>
-                        <ul style='margin:0 20px;'>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv1hd">CCTV-1高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv2hd">CCTV-2高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv3hd">CCTV-3高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv4hd">CCTV-4高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv5hd">CCTV-5高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv6hd">CCTV-6高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv7hd">CCTV-7高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv8hd">CCTV-8高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv9hd">CCTV-9高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv10hd">CCTV-10高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv12hd">CCTV-12高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv14hd">CCTV-14高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv17hd">CCTV-17高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv1hd">北京卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv2hd">北京文艺高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv4hd">北京影视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv9hd">北京新闻高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv11hd">北京冬奥高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=hunanhd">湖南卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=zjhd">浙江卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=jshd">江苏卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=dfhd">东方卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=ahhd">安徽卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=hljhd">黑卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=lnhd">辽宁卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=szhd">深圳卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=gdhd">广东卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=tjhd">天津卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=hbhd">湖北卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=sdhd">山东卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cqhd">重庆卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=dnhd">福建东南高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=schd">四川卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=hbhd">河北卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=jxhd">江西卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=hnhd">河南卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=gxhd">广西卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=jlhd">吉林卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=lyhd">海南卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=gzhd">贵州卫视高清</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv1">CCTV-1综合</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv2">CCTV-2财经</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv3">CCTV-3综艺</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv4">CCTV-4国际</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv6">CCTV-6电影</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv7">CCTV-7军事</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv8">CCTV-8电视剧</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv9">CCTV-9纪录</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv10">CCTV-10科教</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv11">CCTV-11戏曲</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv12">CCTV-12社会</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv13">CCTV-13新闻</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv14">CCTV-14少儿</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv15">CCTV-15音乐</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv16">CGTN</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv17">CCTV-17农业</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv1">北京卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv2">北京文艺</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv3">北京科教</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv4">北京影视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv5">北京财经</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv7">北京生活</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv8">北京青年</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv9">北京新闻</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv10">北京卡酷少儿</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=btv11">北京冬奥纪实</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=zjtv">浙江卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=hunantv">湖南卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=jstv">江苏卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=dftv">东方卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=sztv">深圳卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=ahtv">安徽卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=hntv">河南卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=sxtv">陕西卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=jltv">吉林卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=gdtv">广东卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=sdtv">山东卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=hbtv">湖北卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=hebtv">河北卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=xztv">西藏卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=nmtv">内蒙古卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=qhtv">青海卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=sctv">四川卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=tjtv">天津卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=sxrtv">山西卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=lntv">辽宁卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=xmtv">厦门卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=xjtv">新疆卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=hljtv">黑龙江卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=yntv">云南卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=jxtv">江西卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=dntv">福建东南卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=gztv">贵州卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=nxtv">宁夏卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=gstv">甘肃卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cqtv">重庆卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=bttv">兵团卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=ybtv">延边卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=sstv">三沙卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=lytv">海南卫视</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=sdetv">山东教育</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cetv1">CETV-1</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cetv3">CETV-3</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="http://ivi.bupt.edu.cn/player.html?channel=cetv4">CETV-4</a>
-                                </li>
-                            </ul>
-                        </ul>
-                    </div>
-              </div>
-        </div> `);
-                $("#s_mancard_main").html(con);
-                $("#s-hotsearch-wrapper").html(con);
-            }, 500);
-            break
-            //--------------------------------------------------------------------------------
               case 'www.eggvod.cn':
                 $("#vip_movie_box").remove();
                   var yhq=$(`
                 <div style="font-size: 1.0em;">
                     <ul>
-                        <li style="text-align:center; width:80px; line-height:40px;float:left;border:1px dashed gray;">
-                            <a href="https://greasyfork.org/zh-CN/scripts/423249-%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E7%95%AA%E5%89%A7%E8%A7%A3%E9%94%81%E5%A4%A7%E4%BC%9A%E5%91%98-b%E7%AB%99%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD-%E8%A7%A3%E6%9E%90-a%E7%AB%99%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD-%E8%A7%A3%E6%9E%90-%E9%9B%86%E5%90%88%E4%BA%86%E4%BC%98%E9%85%B7-%E7%88%B1%E5%A5%87%E8%89%BA-%E8%85%BE%E8%AE%AF-%E8%8A%92%E6%9E%9C-%E4%B9%90%E8%A7%86-%E7%AD%89%E5%85%A8%E7%BD%91vip%E8%A7%86%E9%A2%91%E5%85%8D%E8%B4%B9%E7%A0%B4%E8%A7%A3%E5%8E%BB%E5%B9%BF%E5%91%8A-%E9%AB%98%E6%B8%85%E6%99%AE%E6%B8%85%E7%94%B5%E8%A7%86%E8%A7%82%E7%9C%8B-%E5%A2%9E%E5%8A%A0%E5%AF%B9%E6%89%8B%E6%9C%BA%E6%94%AF%E6%8C%81-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0">脚本下载地址</a>
+                        <li style="text-align:center; width:40px; line-height:40px;float:left;border:1px dashed gray;">
+                            <a href="https://qsqrftih.github.io/logl/jb.js">脚本下载地址</a>
                         </li>
                     </ul>
                     <ul>
-                        <li style="text-align:center; width:80px; line-height:40px;float:left;border:1px dashed gray;">
+                        <li style="text-align:center; width:40px; line-height:40px;float:left;border:1px dashed gray;">
                             <a href="https://zuihuitao.cn">淘宝天猫优惠券</a>
                         </li>
                     </ul>
                     <ul>
-                        <li style="text-align:center; width:80px; line-height:40px;float:left;border:1px dashed gray;">
+                        <li style="text-align:center; width:40px; line-height:40px;float:left;border:1px dashed gray;">
                             <a href="https://qsqrftih.github.io/logl/shang.jpg">打赏作者</a>
                         </li>
                     </ul>
                      <ul>
-                        <li style="text-align:center; width:80px; line-height:40px;float:left;border:1px dashed gray;">
-                            <a href="https://zuihuitao.cn">关于脚本</a>
+                        <li style="text-align:center; width:40px; line-height:40px;float:left;border:1px dashed gray;">
+                            <a href="https://qsqrftih.github.io/logl">关于脚本</a>
                         </li>
                     </ul>
                 </div>
