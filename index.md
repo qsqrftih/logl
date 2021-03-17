@@ -97,3 +97,12 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
 <h3>
 <div style="color:#000"><p>打赏作者</p></div>
 <img src="https://qsqrftih.github.io/logl/shang.jpg" width="600" height="400">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c9bc56214834d70f58472fc0432362bb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
