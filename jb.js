@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name              哔哩哔哩番剧解锁大会员,B站视频下载、解析，A站视频下载、解析，集合了优酷、爱奇艺、腾讯、芒果、乐视、等全网VIP视频免费破解去广告,高清普清电视观看，增加对手机支持，持续更新
 // @namespace          ccc
-// @version            2.0.2
+// @version            2.0.6
 // @description       自用解析脚本，哔哩哔哩番剧解锁大会员,集合了优酷、爱奇艺、腾讯等全网VIP视频免费破解去广告,没有太多花哨，但是很好用，也会持续更新接口，方便大家看电影。
 // @author            die
 // @icon              data:image/png;base64,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PnGzPnHkn324bkFgANMmzRvgmi0QhzGWvbNp76IWxTVcqceZjDGfOEpnlM4NAcOY5TEYdCJ4CKMCXBJMyxlLQwMJobsW8AZwDzCBMSTsfJkmyybh2sVmpD1RIGeK3lpTiesY7kFhM4Vzc+00IcmLYDsBXAl4bzYh57Bwl9sN9CG1OgruADxMKHFvmdcCQL2x1hclXwAvAM9EZVUxTtfGpltWesxrB6GDQTBeWWqWVpRY6TcTKs2kN2s472n21ysyOxB5XRE0ZTZVJoaTMNFRcDOmmI5I9keLmXRSQ4EPg0jboyAm6JRCkWCMaVdwFZntM6k/fh/zWcLqQA8yI2u1/wS8kIpids8gJiVbZ5dfqq7m7zfpeoNXTLoIkLQLVM06Cl4kdDKXI7gTSDAbt6L05gWlRiL38hjuXYRmwCON+8ThSo+MgzH6q3I24Z2x6RdfZ+DJO2frjfU7ZvdteyLJ20e3T819ZtPFZZe12g+bdCHufdZ5v+yA9S19SYxgSWjVVrojWAOsyJJr84GeewEqa/mNaavdHe4hQgtPu1b5RFHJDgFWba7fjC+RmW/Xsk975z648sXHDODS5l4NT14cctKtrl1u7/F6tl3NJlyZ7zaJMnHDrXrleFRPNTFudLpcg3PFfsOKYydejyrezX+Pmeh3txDuG49HG9jcNUdxTue6cLXRjIcbjApeIFzKj26Yt47ZJNLDwMnOvxIp8A/gBhL3F8yKsK0SSj8E/BNXLuCTMWAWs5zEWmChe/C+glc/ZmMkthbu3F3gJYf3oa1ydgbnckoP0hacexFn63QuVt4b4db4t27UKfB94Am89mNaj0tXCU7+OD4RoeycQnqAkmVMZZwXTFcapqTZqXFXAFJFeGAJ6QDeN5F6gXWkbXitXgYoDQC/jAG7PP4Dti5MrvrBCwUAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjEtMDMtMDZUMjA6MTQ6MTErMDg6MDBtEXWtAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIxLTAzLTA2VDIwOjE0OjExKzA4OjAwHEzNEQAAACB0RVh0c29mdHdhcmUAaHR0cHM6Ly9pbWFnZW1hZ2ljay5vcme8zx2dAAAAGHRFWHRUaHVtYjo6RG9jdW1lbnQ6OlBhZ2VzADGn/7svAAAAGHRFWHRUaHVtYjo6SW1hZ2U6OkhlaWdodAA3NDlmrKoiAAAAGHRFWHRUaHVtYjo6SW1hZ2U6OldpZHRoADE1OTOJNIonAAAAGXRFWHRUaHVtYjo6TWltZXR5cGUAaW1hZ2UvcG5nP7JWTgAAABd0RVh0VGh1bWI6Ok1UaW1lADE2MTUwMzI4NTF1V3dqAAAAFHRFWHRUaHVtYjo6U2l6ZQAxNDE5MTZCQqRa34sAAABGdEVYdFRodW1iOjpVUkkAZmlsZTovLy9hcHAvdG1wL2ltYWdlbGMvaW1ndmlldzJfOV8xNjA5OTAzNTE0MDY4MjMwOF8yOF9bMF3spSwtAAAAAElFTkSuQmCC
-// @namespace         https://greasyfork.org/users/407847
+// @namespace         https://greasyfork.org/zh-CN/scripts/407847-%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E7%95%AA%E5%89%A7%E8%A7%A3%E9%94%81%E5%A4%A7%E4%BC%9A%E5%91%98-b%E7%AB%99%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD-%E8%A7%A3%E6%9E%90-a%E7%AB%99%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD-%E8%A7%A3%E6%9E%90-%E9%9B%86%E5%90%88%E4%BA%86%E4%BC%98%E9%85%B7-%E7%88%B1%E5%A5%87%E8%89%BA-%E8%85%BE%E8%AE%AF-%E8%8A%92%E6%9E%9C-%E4%B9%90%E8%A7%86-%E7%AD%89%E5%85%A8%E7%BD%91vip%E8%A7%86%E9%A2%91%E5%85%8D%E8%B4%B9%E7%A0%B4%E8%A7%A3%E5%8E%BB%E5%B9%BF%E5%91%8A-%E9%AB%98%E6%B8%85%E6%99%AE%E6%B8%85%E7%94%B5%E8%A7%86%E8%A7%82%E7%9C%8B-%E5%A2%9E%E5%8A%A0%E5%AF%B9%E6%89%8B%E6%9C%BA%E6%94%AF%E6%8C%81-%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0
 // @require           https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js
 // @match             *://v.qq.com/x/cover/*
 // @match             *://m.v.qq.com/x/cover/*
@@ -44,6 +44,7 @@
 // @match             *://www.zuidazy4.com/?m=vod-detail-id-*
 // @match             *://wetv.vip/*
 // @match             *://www.eggvod.cn/*
+// @match             *://www.baidu.com
 // @license           GPL License
 // @grant             unsafeWindow
 // @grant             GM_openInTab
@@ -120,7 +121,7 @@
         {
             name: "线路一",
             type: "1",
-            url: "https://jsap.attakids.com/?url="
+            url: "https://www.h8jx.com/jiexi.php?url="
         }, {
             name: "线路二",
             type: "1",
@@ -136,7 +137,7 @@
         }, {
             name: "线路五",
             type: "1",
-            url: "https://jsap.attakids.com/?url="
+            url: "https://api.lhh.la/vip/?url="
         }, {
             name: "线路六",
             type: "1",
@@ -202,11 +203,11 @@
         {
             name: "B站一线",
             type: "2",
-            url: "https://api.tv920.com/vip/?url="
+            url: "https://api.10dy.net/?url="
         }, {
             name: "B站二线",
             type: "2",
-            url: "https://jiexi.q-q.wang/?url="
+            url: "https://vip.2ktvb.com/player/?url="
         }, {
             name: "B站三线",
             type: "2",
@@ -214,11 +215,11 @@
         }, {
             name: "B站四线",
             type: "2",
-            url: "https://jx.973973.xyz/?url="
+            url: "https://api.qianqi.net/vip/?url="
         }, {
             name: "B站五线",
             type: "2",
-            url: "https://jx.popo520.cn/jiexi/?url="
+            url: "https://www.ckmov.vip/api.php?url="
         }, {
             name: "B站六线",
             type: "2",
@@ -345,7 +346,8 @@
     #vip_movie_box .selected_text {width:0px; padding:2px 0px; text-align:center;}
 	#vip_movie_box .selected_text img {width:30px; height:30px;display:inline-block; vertical-align:middle;}
     #vip_movie_box .vip_mod_box_selected {display:none; position:absolute; left:30px; top:0; text-align:center; background-color:#272930; border:1px solid gray;}
-    #vip_movie_box .vip_mod_box_selected li{font-size:14px; color:#DCDCDC; text-align:center; width:24px; line-height:27px; float:left; border:1px dashed gray; padding:0 4px; margin:4px 2px;}
+    #vip_movie_box .vip_mod_box_selected ul{height:455px; overflow-y: scroll;}
+    #vip_movie_box .vip_mod_box_selected li{font-size:14px; color:#DCDCDC; text-align:center; width:28px; line-height:27px; float:left; border:1px dashed gray; padding:0 4px; margin:4px 2px;}
     #vip_movie_box .vip_mod_box_selected li:hover{color:#FF4500;background:#00ff00}
     #vip_movie_box .qelected_text {width:0px; padding:2px 0px; text-align:center;}
 	#vip_movie_box .qelected_text img {width:30px; height:30px;display:inline-block; vertical-align:middle;}
@@ -496,6 +498,7 @@
                     <ul>
                         <li>
                              <p><a href="https://qsqrftih.github.io/logl/shang.jpg" target="new">打赏作者</a></p>
+                        </li>
                     </ul>
                      <ul>
                         <li>
@@ -713,6 +716,7 @@
                                 <a href="http://ivi.bupt.edu.cn/player.html?channel=gzhd">贵州卫视高清</a>
                             </li>
                         </ul>
+
                         <ul>
                             <li>
                                 <a href="http://ivi.bupt.edu.cn/player.html?channel=cctv1">CCTV-1综合</a>
@@ -1516,24 +1520,14 @@
               case 'www.eggvod.cn':
                 $("#vip_movie_box").remove();
                   var yhq=$(`
-                <div style="font-size: 1.0em;">
+                <div>
                     <ul>
-                        <li style="text-align:center; width:40px; line-height:40px;float:left;border:1px dashed gray;">
-                            <a href="https://qsqrftih.github.io/logl/jb.js">脚本下载地址</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li style="text-align:center; width:40px; line-height:40px;float:left;border:1px dashed gray;">
-                            <a href="https://zuihuitao.cn">淘宝天猫优惠券</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li style="text-align:center; width:40px; line-height:40px;float:left;border:1px dashed gray;">
-                            <a href="https://qsqrftih.github.io/logl/shang.jpg">打赏作者</a>
+                        <li>
+                          <a href="https://zuihuitao.cn">淘宝天猫优惠券</a>
                         </li>
                     </ul>
                      <ul>
-                        <li style="text-align:center; width:40px; line-height:40px;float:left;border:1px dashed gray;">
+                        <li>
                             <a href="https://qsqrftih.github.io/logl">关于脚本</a>
                         </li>
                     </ul>
@@ -1544,6 +1538,14 @@
             }, 500);
             break
             //--------------------------------------------------------------------------------
+        case 'www.baidu.com':
+            $(".item_text").remove();
+            $(".qelected_text").remove();
+            $(".selected_text").remove();
+            $(".aelected_text").remove();
+            setInterval(() => {
+            }, 500);
+            break
         default:
             break
     }
