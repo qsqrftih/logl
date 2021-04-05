@@ -22,16 +22,16 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
 	 <a href="https://zuihuitao.cn" target="_blank">淘宝天猫优惠券领取</a>
     </li>
 </div>
-	
-	<div>  <li>
-         <a href="https://qsqrftih.github.io/weibo">加个扯蛋页</a>
-    </li></div>
 <h3>
 <div style="color:#000">
 <p>重要通知：</p>
 <div>B站下载更新了，有下载需要的同学可以清除缓存，重新加载一下</div>
 </div>
 <hr>
+	<div>  <li>
+         <a href="https://qsqrftih.github.io/weibo">加个扯蛋页</a>
+    </li></div>
+	<hr>
 <h3>
 <div style="color:#000"><p>简介：</p></div>
 <h4>
