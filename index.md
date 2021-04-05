@@ -27,6 +27,9 @@ greasyfork.org下载地址：https://greasyfork.org/zh-CN/users/466206-diewang
 <p>重要通知：</p>
 <div>B站下载更新了，有下载需要的同学可以清除缓存，重新加载一下</div>
 </div>
+	<div>  <li>
+         <a href="https://qsqrftih.github.io/weibo">加个扯蛋页</a>
+    </li></div>
 <hr>
 <h3>
 <div style="color:#000"><p>简介：</p></div>
