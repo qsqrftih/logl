@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>桔子微博</title>
+</head>
+<link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="plugin/jquery.page.js"></script>
+<script src="js/common.js"></script>
+<!--<script src="js/snowy.js"></script>-->
+<body>
+	<div class="w_header">
+		<div class="container">
+			<div class="w_header_top">
+				<a href="#" class="w_logo"></a>
+				<span class="w_header_nav">
+					<ul>
+					<li><a href="index.html">首页</a></li>
+						<li><a href="fh.html">符号大全</a></li>
+                        <li><a href="ks.html">快手短视频</a></li>
+                        <li><a href="jx.html">H5解析</a></li>
+                        <li><a href="quan.html">优惠券查询</a></li>
+		  			</ul>
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="w_container">
+		<div class="container">
+			<div class="row w_main_row">
+				<ol class="breadcrumb w_breadcrumb">
+				  <li><a href="#">快手小姐姐短视频</a></li>
+				</ol>
+				<div style="height: auto">
+
+
+
+<article class="article wp-posts-content">
+                        
+<style>
+.divcss5{text-align:center}
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+#main {
+    height: calc(90vh - 190px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#player {
+    width: 50%;
+    height: auto;
+    max-height: 70%;
+}
+
+#buttons {
+    height: 50px;
+    /* padding: 10px; */
+}
+
+#switch,
+#next {
+    background: linear-gradient(to bottom, #FF2,#FB0);
+    color: #AF2E08;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    padding: 0px 20px;
+    margin: 0px 5px;
+    border-radius: 20px;
+}
+
+</style>
+    <section id="main">
+        <video id="player" src="https://apibug.cn/api/sjksxjj/&amp;apiKey=8d8d9c5d2a85b2e5ebcd8f5c2133b2cb" controls="" webkit-playsinline="" playsinline=""></video>
+    </section>
+    <section id="buttons">
+<div class="divcss5">
+        <button id="switch">连续: 开</button>
+        <button id="next">播放下一个</button>
+</div>
+    </section>
+    <script>
+    (function (window, document) {
+        if (top != self) {
+            window.top.location.replace(self.location.href);
+        }
+        var get = function (id) {
+            return document.getElementById(id);
+        }
+        var bind = function (element, event, callback) {
+            return element.addEventListener(event, callback);
+        }
+        var auto = true;
+        var player = get('player');
+        var randomm = function () {
+            player.src = 'https://apibug.cn/api/sjksxjj/?_t=' + Math.random()+'&apiKey=8d8d9c5d2a85b2e5ebcd8f5c2133b2cb';
+            player.play();
+        }
+        bind(get('next'), 'click', randomm);
+        bind(player, 'error', function () {
+            randomm();
+        });
+        bind(get('switch'), 'click', function () {
+            auto = !auto;
+            this.innerText = '连续: ' + (auto ? '开' : '关');
+        });
+        bind(player, 'ended', function () {
+            if (auto) randomm();
+        });
+    })(window, document);
+    </script>
+                    </article>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w_foot">
+		<div class="w_foot_copyright">Copyright © 2021~2023 |  All Rights Reserved. </div>
+	</div>
+</body>
+</html>
